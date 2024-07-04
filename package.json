@@ -1,0 +1,23 @@
+{
+  "name": "drive-cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "product": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Felipe Sanchez",
+  "license": "ISC",
+  "description": "Project google drive cloud in home",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
